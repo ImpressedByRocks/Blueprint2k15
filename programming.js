@@ -9,6 +9,7 @@ document.write(count);
 
 $(document).ready(function() {
 	$('.einput').click(function(event) {
+		event.preventDefault();
 		console.log(document.getElementById("userInput").value);
 	});
 
