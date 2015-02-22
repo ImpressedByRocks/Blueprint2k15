@@ -3,10 +3,18 @@
 }
 body
 {
-    background:url("http://thingstolookathigh.com/wp-content/uploads/2011/04/outer-space-stars.jpg");
+    background:url("http://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/blue-space.jpg");
     text-align:center;
     color: solid white;
-    font-family: 'Lato';
+  color: white;
+  text-shadow:
+   -1px -1px 0 #000,  
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+ 	1px 1px 0 #000;
+    line-height: 3;
+    font-family: 'Arial';
+     letter-spacing: 2px;
 }
 
 #log {
