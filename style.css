@@ -12,8 +12,8 @@ body
 	1px -1px 0 #000,
 	-1px 1px 0 #000,
  	1px 1px 0 #000;
-    line-height: 3;
-    font-family: 'Arial';
+    line-height: 1.5;
+    font-family: 'Courier';
      letter-spacing: 2px;
 }
 
