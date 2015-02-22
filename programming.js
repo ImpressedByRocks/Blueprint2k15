@@ -8,6 +8,7 @@ function read() {
     }
      output=false;
     console.log(count);
+    document.getElementById('log').innerHTML += '<br> ';
     if(count==1)
     {
 
@@ -50,7 +51,7 @@ function read() {
    	 {
    		 output=true;
    		 document.getElementById('log').innerHTML += '<br> You turn the display on and a robot states: push the red button NOW! You turn around and slowly see the door closing. You are unsure of the robot\'s intentions. Do you try to leave or press the button??';
-   		 count=2;
+   		 //count=2;
    	 }
    	 if(mess.indexOf("outside")!=-1)
    	 {
@@ -76,6 +77,13 @@ function read() {
    		 document.getElementById('log').innerHTML += '<br> You barely escape. Sirens are going off. Do you run to run up the stairs to an unknown room, or down the stairs in to the space-pool?';
    		 //count=2;
    			 document.body.style.backgroundImage=("url(https://acrylicandsteel.files.wordpress.com/2013/07/5000_hall.png)");
+   	 }
+   	 if(mess.indexOf(" button ")!=-1||mess.indexOf(" red ")!=-1)
+   	 {
+   		 output=true;
+   		 document.getElementById('log').innerHTML += '<br> You press the red button. A bight flash of light fills your view. You die. \n You look around and find that you are in a spaceship that is about to crash in to Europa. In front of you, you see a spacesuit and a door that says: escape shuttle. What do you choose to do?';
+   		 count=1;
+   		 console.log("button:" +count);
    	 }
     }
     if(count==5)
