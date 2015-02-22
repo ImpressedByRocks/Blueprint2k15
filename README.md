@@ -1,6 +1,8 @@
 Blueprint 2015: Team Party Emotocon
-  Members: Andrew Hatini, Noah Zucker, Temour Raza, Michael Savrin
-  This is a web-based game!  It is designed in HTML, CSS, and Javascript, and is our submission to the BP2015 Hackathon!
+
+
+Members: Andrew Hatini, Noah Zucker, Temour Raza, Michael Savrin
+  This is a web-based game!  It is designed in HTML, CSS, and Javascript, and is our submission to the Hackathon!
   
   Bluespace: The Webgame!
   
